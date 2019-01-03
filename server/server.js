@@ -23,6 +23,8 @@ app.post('/todos',(req,res)=>{
     })
 });
 app.listen(port,()=>{
-    console.log('The server is live')
+    // console.log('The server is live')
 });
+
+module.exports = {app}
 
